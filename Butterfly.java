@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Butterfly here.
+ * The Butterfly, our hero.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Lynn 
+ * @version May 2022
  */
 public class Butterfly extends Actor
 {
@@ -15,5 +15,6 @@ public class Butterfly extends Actor
     public void act() 
     {
         // Add your action code here.
+        move(1);
     }    
 }
