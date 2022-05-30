@@ -15,6 +15,26 @@ public class Butterfly extends Actor
     public void act() 
     {
         // Add your action code here.
-        move(1);
+        if(Greenfoot.isKeyDown("left"))
+        {
+            move(-1);
+        }
+        else if(Greenfoot.isKeyDown("right"))
+        {
+            move(1);
+        }
+        
+        eat();
     }    
+    
+    public void eat()
+    {
+        if(isTouching(Strawberry.class))
+        {
+            removeTouching(Strawberry.class);
+            MyWorld world = (MyWorld) getWorld();
+            world.createStrawberry();
+            world.increaseScore();
+        }
+    }
 }
