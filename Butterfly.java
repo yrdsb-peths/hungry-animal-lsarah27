@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Butterfly extends Actor
 {
+    GreenfootSound sound = new GreenfootSound("sounds/bark.mp3");
     /**
      * Act - do whatever the Butterfly wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -17,11 +18,11 @@ public class Butterfly extends Actor
         // Add your action code here.
         if(Greenfoot.isKeyDown("left"))
         {
-            move(-1);
+            move(-2);
         }
         else if(Greenfoot.isKeyDown("right"))
         {
-            move(1);
+            move(2);
         }
         
         eat();
@@ -31,6 +32,7 @@ public class Butterfly extends Actor
     {
         if(isTouching(Strawberry.class))
         {
+            sound.play();
             removeTouching(Strawberry.class);
             MyWorld world = (MyWorld) getWorld();
             world.createStrawberry();

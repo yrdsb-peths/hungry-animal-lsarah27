@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Strawberry
-comment0.text=\r\n\ Food\ for\ our\ butterfly.\r\n\ \r\n\ @author\ Lynn\ \r\n\ @version\ May\ 2022\r\n
+comment0.text=\n\ Food\ for\ our\ butterfly.\n\ \n\ @author\ Lynn\ \n\ @version\ May\ 2022\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Strawberry\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Strawberry\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 numComments=2
