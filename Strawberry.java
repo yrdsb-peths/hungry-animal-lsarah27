@@ -16,7 +16,7 @@ public class Strawberry extends Actor
     {
         // Add your action code here.
         int x = getX();
-        int y = getY() + 1;
+        int y = getY() + 2;
         setLocation(x, y);
         
         MyWorld world = (MyWorld) getWorld();
